@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.836);
+    text-align: center;
+}
+
+.opening {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.836);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 20px;
+    display: inline;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation>li>a:hover {
+    color: yellow;
+    transition: all .2sc;
+}
+
+.aktif {
+    background-color: yellow;
+    color: black !important;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.aktif:hover {
+    color: red !important;
+}
+
+
+
+.box {
+    box-shadow: 0 4px 8px 0 black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#mainclass {
+    float: right;
+    width: 75%;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    padding: 20px;
+
+}
+
+
+
+.profil header {
+    text-align: center;
+}
+
+.profil img {
+    width: 200px;
+
+}
+
+.profil {
+    padding: 10px;
+    margin: 0px;
+}
+
+.profil figure {
+    margin: 0;
+    text-align: center;
+}
+
+.profil table {
+    text-align: left;
+}
+
+.PI {
+    text-align: center;
+    padding: 5;
+    background-color: crimson;
+}
+
+footer {
+    font-size: 14;
+    padding: 20px;
+    color: crimson;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
